@@ -17,7 +17,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Data
 
-The data for the trending assets is present /src/data/TrendingAssetsData.ts
+The data for the trending assets is present in /src/data/TrendingAssetsData.ts
 
 ## Developer
 
