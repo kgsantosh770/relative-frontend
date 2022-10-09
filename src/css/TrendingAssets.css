@@ -8,4 +8,5 @@
     backdrop-filter: blur(50px);
     border: 1px solid;
     border-image-source: linear-gradient(180deg, rgba(236, 240, 255, 0.1) 0%, rgba(46, 49, 73, 0) 107.43%);
+    clip-path: url("#cardMask");
 }
