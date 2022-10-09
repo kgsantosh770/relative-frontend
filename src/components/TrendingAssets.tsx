@@ -39,7 +39,7 @@ function TrendingAssets() {
     const assets = TrendingAssetsData.map(asset => (
         <div
             key={asset.id}
-            className="trending-asset flex flex-col justify-center items-center mr-20 mb-24">
+            className="trending-asset flex flex-col justify-center items-center sm:mr-20 mb-10 sm:mb-24">
             <div
                 style={{ background: asset.iconBackground }}
                 className="asset-img 
@@ -85,7 +85,7 @@ function TrendingAssets() {
     ))
 
     return (
-        <section className="trending-assets text-white-text flex flex-row flex-wrap my-9 mx-[80px]">
+        <section className="trending-assets text-white-text flex flex-row flex-wrap my-9 justify-center sm:justify-start sm:mx-[80px] mx-[16px]">
             {assestsVector}
             <div className="trending-title text-[16px] leading-[32px] flex flex-row items-center w-full mb-[58px] tracking-[-0.01em]">
                 <img src="/images/trend-icon.png" alt="trending-assets" className="inline-block" />
