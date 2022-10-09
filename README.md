@@ -4,11 +4,13 @@ The coding challenge has be successfully completed.
 
 ## Procedure to run the project
 
-Step 1: Install all the dependencies
+Step 1: Clone the repo and go inside "relative-frontend" folder
+
+Step 2: Install all the dependencies
 
 ### `npm install`
 
-Step 2: Start the development server
+Step 3: Start the development server
 
 ### `npm start`
 
