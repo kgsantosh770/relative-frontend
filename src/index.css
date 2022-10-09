@@ -1,2 +1,17 @@
 @tailwind base;
 @tailwind utilities;
+
+:root {
+    --primary-color: #14172B;
+    --blue-text-color: #737BAE;
+    --decrease-value-color: #FF4D4D;
+    --light-blue-text-color: #5A5F7D;
+    --white-text-color: #ECF0FF;
+    --increase-value-color: #00FFA3;
+    --decrease-value-color: #FF4D4D;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Tomorrow', sans-serif;
+}

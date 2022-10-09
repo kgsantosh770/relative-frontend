@@ -1,7 +1,9 @@
+import TrendingAssets from "./components/TrendingAssets";
+
 function CryptoApp() {
   return (
-    <div className="crypto-app text-3xl">
-      Gonna grab the job.
+    <div className="crypto-app">
+      <TrendingAssets />
     </div>
   );
 }
