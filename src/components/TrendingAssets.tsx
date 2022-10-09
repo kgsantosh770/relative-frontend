@@ -28,28 +28,28 @@ function TrendingAssets() {
             </defs>
         </svg>
     )
-    
+
     const pairs = (ids: number[]) => {
-        const matches = TrendingAssetsData.filter(({id}) => ids.includes(id));
+        const matches = TrendingAssetsData.filter(({ id }) => ids.includes(id));
         return matches.map(asset => (
-            <img key={asset.id} className="h-[22px] w-[22px]" src={asset.icon} alt={asset.name} title={asset.name}/>
+            <img key={asset.id} className="h-[22px] w-[22px]" src={asset.icon} alt={asset.name} title={asset.name} />
         ))
     }
 
     const assets = TrendingAssetsData.map(asset => (
         <div
             key={asset.id}
-            className="trending-asset flex flex-col justify-center items-center mr-20 mb-9">
+            className="trending-asset flex flex-col justify-center items-center mr-20 mb-24">
             <div
-                className="
-                        asset-img 
+                style={{ background: asset.iconBackground }}
+                className="asset-img 
                         w-[100px] 
                         h-[100px] 
                         rounded-full
                         flex
                         justify-center
-                        items-center
-                    ">
+                        items-center"
+                >
                 <img
                     src={asset.icon}
                     alt="bitcoin"

@@ -2,6 +2,7 @@ export const TrendingAssetsData = [
     {
         "id": 1,
         "icon": "/images/bitcoin.png",
+        "iconBackground": "linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%)",
         "name": "Bitcoin (BTC)",
         "price": 31812.80,
         "percentageChange": 10,
@@ -11,6 +12,7 @@ export const TrendingAssetsData = [
     {
         "id": 2,
         "icon": "/images/solana.png",
+        "iconBackground": "linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(220, 31, 255, 0.1) 100%)",
         "name": "Solana (SOL)",
         "price": 32.83,
         "percentageChange": -12.32,
@@ -20,6 +22,7 @@ export const TrendingAssetsData = [
     {
         "id": 3,
         "icon": "/images/ethereum.png",
+        "iconBackground": "linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(237, 240, 244, 0.1) 100%)",
         "name": "Ethereum (ETH)",
         "price": 1466.45,
         "percentageChange": -11.93,
@@ -29,6 +32,7 @@ export const TrendingAssetsData = [
     {
         "id": 4,
         "icon": "/images/binance.png",
+        "iconBackground": "linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%)",
         "name": "Binance (BUSD)",
         "price": 1,
         "percentageChange": +0.26,
@@ -38,6 +42,7 @@ export const TrendingAssetsData = [
     {
         "id": 5,
         "icon": "/images/shiba-inu.png",
+        "iconBackground": "linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(228, 45, 4, 0.1) 100%)",
         "name": "Shiba Inu (SHIB)",
         "price": 0.00000001948,
         "percentageChange": -8.1,
