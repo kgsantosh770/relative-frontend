@@ -30,7 +30,9 @@ function TrendingAssets() {
     )
 
     const assets = TrendingAssetsData.map(asset => (
-        <div className="trending-asset flex flex-col justify-center items-center mr-[70px] mb-9">
+        <div 
+        key={asset.id}
+        className="trending-asset flex flex-col justify-center items-center mr-[70px] mb-9">
             <div
                 className="
                         asset-img 
